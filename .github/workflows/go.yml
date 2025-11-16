@@ -39,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: user/app:latest
+          tags: Efind2/cicd/app:latest
 
       - name: Build and push
         id: docker_build
